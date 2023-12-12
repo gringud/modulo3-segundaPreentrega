@@ -1,6 +1,6 @@
 
 export default function Nosotros(){
     return(
-        <h1>Soy nosotros</h1>
+        <h1 className="tituloPage">Soy nosotros</h1>
     )
 }

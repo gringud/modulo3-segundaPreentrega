@@ -4,7 +4,7 @@ export default function Productos(){
     console.log(listaProductos);
     return(
         <>
-            <h1>Listado de productos</h1>
+            <h1 className="tituloPage">Listado de productos</h1>
             <div className="galeria">
                 {listaProductos.map((producto) => {
                     return(

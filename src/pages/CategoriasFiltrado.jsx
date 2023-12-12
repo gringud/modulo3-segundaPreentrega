@@ -17,15 +17,17 @@ export default function CategoriasFiltrado(){
 
     return(
         <>
-            <div className="filtradoCategorias">
-                {resultCategory.map((categorias) =>{
-                    return(
-                        <div key={categorias}>
-                            {/* <div className="categoriasFilter" key={categorias}>{categorias}</div> */}
-                            <Link className="categoriasFilter" to={`/filtrado/${categorias}`}>{categorias}</Link>
-                        </div>
-                    )
-                })}
+            <div className="containerFilter">
+                <div className="filtradoCategorias">
+                    {resultCategory.map((categorias) =>{
+                        return(
+                            <div className="divFiltradoCategorias" key={categorias}>
+                                {/* <div className="categoriasFilter" key={categorias}>{categorias}</div> */}
+                                <Link className="categoriasFilter" to={`/filtrado/${categorias}`}>{categorias}</Link>
+                            </div>
+                        )
+                    })}
+                </div>
             </div>
         </>
     )

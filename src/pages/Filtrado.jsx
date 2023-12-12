@@ -6,7 +6,7 @@ export default function Filtrado(){
     console.log("ME EJECUTE");
     return(
         <>
-            <h1>Elija filtro de busqueda</h1>
+            <h1 className="tituloPage">Elija filtro de busqueda</h1>
             {/* <CategoriasFiltrado/> */}
             <FiltradoProducto/>        
         </>
